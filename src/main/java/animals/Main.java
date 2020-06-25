@@ -23,16 +23,17 @@ public class Main {
         List<Bird> birds = new ArrayList<>();
         List<Fish> fishes = new ArrayList<>();
 
-        Animal lion = new Lion("Leon", 25);
-        Animal raven = new Raven("Tweety", 1);
-        Animal human = new Human("Mikołaj", 75);
-        Animal fish = new Piranha("Piranha", 1);
+        IAnimal lion = new Lion("Leon", 25);
+        IAnimal raven = new Raven("Tweety", 1);
+        IAnimal human = new Human("Mikołaj", 75);
+        IAnimal fish = new Piranha("Piranha", 1);
 
         System.out.println(lion.getBreathOrgan());
         System.out.println(lion.getInfoAbout());
         System.out.println(raven.getInfoAbout());
         System.out.println(human.getInfoAbout());
         System.out.println(fish.getInfoAbout());
+        fish.setName("dupa");
         System.out.println(fish.getName());
 
 

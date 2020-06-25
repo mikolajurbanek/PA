@@ -1,6 +1,6 @@
 package animals;
 
-public abstract class Animal implements InfoAbout {
+public abstract class Animal implements IAnimal {
 
     private String name;
     private double mass;
@@ -23,7 +23,7 @@ public abstract class Animal implements InfoAbout {
         return mass;
     }
 
-    public void setMass(int mass) {
+    public void setMass(double mass) {
         this.mass = mass;
     }
 }
