@@ -1,12 +1,12 @@
-package Animals;
+package animals;
 
-import Animals.Birds.Bird;
-import Animals.Birds.Raven;
-import Animals.Fishes.Fish;
-import Animals.Fishes.Piranha;
-import Animals.Mammals.Human;
-import Animals.Mammals.Lion;
-import Animals.Mammals.Mammal;
+import animals.birds.Bird;
+import animals.birds.Raven;
+import animals.fishes.Fish;
+import animals.fishes.Piranha;
+import animals.mammals.Human;
+import animals.mammals.Lion;
+import animals.mammals.Mammal;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,13 +26,14 @@ public class Main {
         Animal lion = new Lion("Leon", 25);
         Animal raven = new Raven("Tweety", 1);
         Animal human = new Human("Mikołaj", 75);
-        Animal fish = new Piranha("Animal.Piranha", 1);
+        Animal fish = new Piranha("Piranha", 1);
 
         System.out.println(lion.getBreathOrgan());
         System.out.println(lion.getInfoAbout());
         System.out.println(raven.getInfoAbout());
         System.out.println(human.getInfoAbout());
         System.out.println(fish.getInfoAbout());
+        System.out.println(fish.getName());
 
 
 

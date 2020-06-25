@@ -1,6 +1,6 @@
-package Animals.Mammals;
+package animals.mammals;
 
-import Animals.Animal;
+import animals.Animal;
 
 public abstract class Mammal extends Animal {
 
@@ -9,7 +9,7 @@ public abstract class Mammal extends Animal {
 
 
 
-    public Mammal(String name, int mass) {
+    public Mammal(String name, double mass) {
         super(name, mass);
         this.breathOrgan = "lungs";
 

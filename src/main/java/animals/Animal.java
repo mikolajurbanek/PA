@@ -1,22 +1,15 @@
-package Animals.Birds;
+package animals;
 
+public abstract class Animal implements InfoAbout {
 
-public class Raven extends Bird {
+    private String name;
+    private double mass;
 
-    String name;
-    int mass;
-
-
-    public Raven(String name, int mass) {
-        super(name, mass);
+    protected Animal(String name, double mass){
         this.name = name;
         this.mass = mass;
     }
 
-    @Override
-    public String getInfoAbout() {
-        return "flies with fru fru!";
-    }
 
     public String getName() {
         return name;
@@ -26,7 +19,7 @@ public class Raven extends Bird {
         this.name = name;
     }
 
-    public int getMass() {
+    public double getMass() {
         return mass;
     }
 
