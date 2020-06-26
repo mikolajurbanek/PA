@@ -1,6 +1,6 @@
 package animals;
 
-public interface movable {
+public interface Movable {
 
     String getMovement();
 }

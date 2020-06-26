@@ -1,11 +1,11 @@
 package animals;
 
-public abstract class Animal implements breathable, movable {
+public abstract class Animal implements Breathable, Movable {
 
     private String name;
     private double mass;
 
-    protected Animal(String name, double mass){
+    public Animal(String name, double mass){
         this.name = name;
         this.mass = mass;
     }

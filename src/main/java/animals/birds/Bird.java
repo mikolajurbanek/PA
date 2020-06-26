@@ -5,7 +5,7 @@ import animals.Animal;
 public abstract class Bird extends Animal {
 
 
-    protected Bird(String name, double mass) {
+    Bird(String name, double mass) {
         super(name, mass);
     }
 

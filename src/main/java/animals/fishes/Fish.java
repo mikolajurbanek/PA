@@ -6,7 +6,7 @@ public abstract class Fish extends Animal {
 
 
 
-    protected Fish(String name, double mass) {
+    Fish(String name, double mass) {
         super(name, mass);
 
     }

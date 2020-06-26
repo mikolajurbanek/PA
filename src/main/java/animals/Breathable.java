@@ -1,6 +1,6 @@
 package animals;
 
-public interface breathable {
+public interface Breathable {
 
     String getBreathOrgan();
 }

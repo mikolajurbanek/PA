@@ -6,7 +6,7 @@ public abstract class Mammal extends Animal {
 
 
 
-    protected Mammal(String name, double mass) {
+    Mammal(String name, double mass) {
         super(name, mass);
 
     }
