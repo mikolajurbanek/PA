@@ -30,6 +30,11 @@ public class Main {
 
 
         mammals.add(human);
+        mammals.add(lion);
+        System.out.println("List of mammals: ");
+        for (Mammal mammal: mammals) {
+            System.out.println(mammal.toString());
+                    }
         System.out.println(raven.getMass());
         System.out.println(lion.getBreathOrgan());
         System.out.println(lion.getMovement());

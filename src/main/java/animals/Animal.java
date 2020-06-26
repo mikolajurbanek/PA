@@ -26,4 +26,13 @@ public abstract class Animal implements IAnimal {
     public void setMass(double mass) {
         this.mass = mass;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", mass=" + mass +
+                '}';
+    }
 }
+
