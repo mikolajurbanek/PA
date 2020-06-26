@@ -8,8 +8,8 @@ public class Piranha extends Fish {
     }
 
     @Override
-    public String getInfoAbout() {
-        return "swim with plum plum";
+    public String getMovement() {
+        return "swims with plum plum";
     }
 
 }

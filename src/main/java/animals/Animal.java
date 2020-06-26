@@ -1,6 +1,6 @@
 package animals;
 
-public abstract class Animal implements InfoAbout {
+public abstract class Animal implements breathable, movable {
 
     private String name;
     private double mass;
@@ -25,5 +25,13 @@ public abstract class Animal implements InfoAbout {
 
     public void setMass(int mass) {
         this.mass = mass;
+    }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", mass=" + mass +
+                '}';
     }
 }

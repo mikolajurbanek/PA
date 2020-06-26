@@ -8,7 +8,7 @@ public class Lion extends Mammal {
     }
 
     @Override
-    public String getInfoAbout() {
+    public String getMovement() {
         return "walks on 4 legs";
     }
 

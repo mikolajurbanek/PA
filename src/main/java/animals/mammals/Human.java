@@ -9,7 +9,7 @@ public class Human extends Mammal {
 
 
     @Override
-    public String getInfoAbout() {
+    public String getMovement() {
         return "walks on 2 legs";
     }
 
