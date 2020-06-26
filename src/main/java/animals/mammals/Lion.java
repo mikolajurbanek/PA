@@ -1,5 +1,7 @@
 package animals.mammals;
 
+import animals.movable;
+
 public class Lion extends Mammal {
 
 
@@ -8,7 +10,7 @@ public class Lion extends Mammal {
     }
 
     @Override
-    public String getInfoAbout() {
+    public String getMovement() {
         return "walks on 4 legs";
     }
 

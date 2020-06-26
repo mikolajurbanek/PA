@@ -1,5 +1,5 @@
-package animals;
-
+import animals.Animal;
+import animals.IAnimal;
 import animals.birds.Bird;
 import animals.birds.Raven;
 import animals.fishes.Fish;
@@ -23,17 +23,20 @@ public class Main {
         List<Bird> birds = new ArrayList<>();
         List<Fish> fishes = new ArrayList<>();
 
-        IAnimal lion = new Lion("Leon", 25);
-        IAnimal raven = new Raven("Tweety", 1);
-        IAnimal human = new Human("Mikołaj", 75);
-        IAnimal fish = new Piranha("Piranha", 1);
+        Mammal lion = new Lion("Leon", 25);
+        Bird raven = new Raven("Tweety", 0.3);
+        Mammal human = new Human("Mikołaj", 75);
+        Fish fish = new Piranha("Piranha", 1);
 
+
+        mammals.add(human);
+        System.out.println(raven.getMass());
         System.out.println(lion.getBreathOrgan());
-        System.out.println(lion.getInfoAbout());
-        System.out.println(raven.getInfoAbout());
-        System.out.println(human.getInfoAbout());
-        System.out.println(fish.getInfoAbout());
-        fish.setName("dupa");
+        System.out.println(lion.getMovement());
+        System.out.println(raven.getMovement());
+        System.out.println(human.getMovement());
+        System.out.println(fish.getMovement());
+        fish.setName("rybka");
         System.out.println(fish.getName());
 
 

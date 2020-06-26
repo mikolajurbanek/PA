@@ -1,5 +1,7 @@
 package animals.fishes;
 
+import animals.movable;
+
 public class Piranha extends Fish {
 
 
@@ -8,7 +10,7 @@ public class Piranha extends Fish {
     }
 
     @Override
-    public String getInfoAbout() {
+    public String getMovement() {
         return "swim with plum plum";
     }
 

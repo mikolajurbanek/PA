@@ -1,6 +1,6 @@
 package animals;
 
-public interface IAnimal extends InfoAbout {
+public interface IAnimal extends breathable, movable {
 
     String getName();
 
